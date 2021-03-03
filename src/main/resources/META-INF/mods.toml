@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+# issueTrackerURL=""
+
+[[mods]]
+modId="configspawns"
+version="${file.jarVersion}"
+displayName="Config Spawns"
+# updateJSONURL=""
+# displayURL=""
+# logoFile=""
+# credits=""
+authors="ChampionAsh5357"
+description='''
+An API showing how to create configurable mob spawns.
+'''
+[[dependencies.configspawns]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.0.43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.configspawns]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
